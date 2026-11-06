@@ -637,7 +637,7 @@ class Barra:
     uma linha só com a barrinha vem antes, separando este bloco do anterior.
     """
 
-    def __init__(self, conteudo, cor=ROXO, separar=False):
+    def __init__(self, conteudo, cor=AZUL, separar=False):
         self.conteudo = conteudo
         self.cor = cor
         self.separar = separar
